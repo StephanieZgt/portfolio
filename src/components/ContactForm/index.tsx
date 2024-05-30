@@ -79,8 +79,7 @@ export default function ContactForm() {
           <h1>Contact</h1>
           <p className="pb-5"></p>
           <p>
-            I would love to hear about your project and how I could help. Please
-            fill in the form, and I’ll get back to you as soon as possible.
+          N'hésitez pas à me contacter !
           </p>
           <p className="pb-12"></p>
         </div>
@@ -89,7 +88,7 @@ export default function ContactForm() {
           <p className="text-red-500">{error}</p>
           <Input
             type="text"
-            placeholder="Name"
+            placeholder="Nom"
             value={name}
             onChange={handleNameChange}
             error={errors.name}
@@ -114,7 +113,7 @@ export default function ContactForm() {
           />
           <p className="pb-3"></p>
           <div className="flex justify-end">
-            <ButtonCTA onClick={sendMessage}>Send Message</ButtonCTA>
+            <ButtonCTA onClick={sendMessage}>Envoyer</ButtonCTA>
           </div>
         </div>
       </div>

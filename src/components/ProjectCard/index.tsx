@@ -2,18 +2,19 @@
 import Image, { StaticImageData } from "next/image";
 import ButtonCTA from "../ButtonCTA";
 
+
 type ProjectCardProps = {
-  code: string;
+  // code?: string;
   image: StaticImageData;
-  link: string;
+  // link: string;
   stack: string;
   title: string;
 };
 
 export default function ProjectCard({
-  code,
+  // code,
   image,
-  link,
+  // link,
   stack,
   title,
 }: ProjectCardProps) {
@@ -25,31 +26,31 @@ export default function ProjectCard({
           alt={title}
           layout={"responsive"}
           objectFit={"contain"}
-          className="ease-in-out duration-500 group-hover:rotate-6 group-hover:scale-125"
+          // className="ease-in-out duration-500 group-hover:rotate-6 group-hover:scale-125"
         />
-        <div
+        {/* <div
           className="bg-[#00000090] absolute invisible group-hover:visible flex flex-col space-y-4 items-center justify-center"
           style={{ inset: 0 }}
-        >
-          <ButtonCTA onClick={() => window.open(link, "_blank")}>
+        > */}
+          {/* <ButtonCTA onClick={() => window.open(link, "_blank")}>
             View Project
-          </ButtonCTA>
-          <ButtonCTA onClick={() => window.open(code, "_blank")}>
+          </ButtonCTA> */}
+          {/* <ButtonCTA onClick={() => window.open(code, "_blank")}>
             View Code
-          </ButtonCTA>
-        </div>
+          </ButtonCTA> */}
+        {/* </div> */}
       </div>
       <div className="mt-4">
         <h3 className="text-lg font-bold">{title.toUpperCase()}</h3>
         <p className="text-sm text-gray-500">{stack.toLocaleUpperCase()}</p>
       </div>
       <div className="flex space-x-7 mt-4 xl:hidden">
-        <ButtonCTA onClick={() => window.open(link, "_blank")}>
+        {/* <ButtonCTA onClick={() => window.open(link, "_blank")}>
           View Project
         </ButtonCTA>
         <ButtonCTA onClick={() => window.open(code, "_blank")}>
           View Code
-        </ButtonCTA>
+        </ButtonCTA> */}
       </div>
     </div>
   );

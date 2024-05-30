@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import PhotoDesktop from "../../assets/images/photo-profile-desktop.jpeg";
+import PhotoDesktop from "../../assets/images/photo-profile-desktop.png";
 import Rings from "../../assets/images/pattern-rings.svg";
 import Circle from "../../assets/images/pattern-circle.svg";
 import ButtonLink from "../ButtonLink";
@@ -69,19 +69,19 @@ export default function HeroSection() {
               height={129}
               alt="Rings"
             />
-            Nice to meet you! I&apos;m{" "}
+            <br />
             <span className="underline decoration-[#4EE1A0] decoration-accent underline-offset-8">
-              Ludovic&nbsp;Z
+              Stéphanie&nbsp;Z
             </span>
             .
           </h1>
           <p className="pb-8 "></p>
           <p>
-            Based in Paris, I’m a front-end developer passionate about building
-            web apps that users love.
-          </p>
+          Étudiante en première année de BUT MMI (Métiers du Multimédia et de l'Internet) à l'IUT de Marne-la-Vallée, campus Gustave Eiffel à Meaux, je suis passionnée par la création numérique. 
+          </p><br />
+          <p>J’ai pour objectif de devenir graphiste ou de travailler dans l'audiovisuel. Mon projet ultime serait de créer ma propre entreprise avec plusieurs de mes camarades travaillant dans le même domaine que moi.</p>
           <p className="pb-8 md:pb-16"></p>
-          <ButtonLink href="#contact">CONTACT ME</ButtonLink>
+          <ButtonLink href="#contact">ME CONTACTER</ButtonLink>
           <p className="md:pb-16"></p>
         </div>
       </div>

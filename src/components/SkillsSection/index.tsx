@@ -7,73 +7,58 @@ interface SkillData {
 
 export default function SkillsSection() {
   const separator = " | ";
-  const frontends: string[] = [
-    "HTML",
-    "CSS",
-    "TypeScript",
-    "React",
-    "Next.js",
-    "TailwindCSS",
-    "Vue.js",
-    "Cypress",
+  const graphisme: string[] = [
+    "InDesign",
+    "Photoshop",
+    "Illustrator",
   ];
 
-  const backends: string[] = [
-    "Go",
-    "Node.js",
-    "NestJS",
-    "Python",
-    "PostgreSQL",
+  const edit: string[] = [
+    "Premiere Pro",
+    "CapCut",
   ];
 
-  const devops: string[] = [
-    "Docker",
-    "Kubernetes",
-    "AWS",
-    "Jenkins",
-    "GitlabCI",
-    "Datadog",
+  const modeling: string[] = [
+    "Blender",
   ];
 
-  const domains: string[] = ["Marketplace", "Logistics", "Payment", "SEO"];
+  const games: string[] = [
+    "Unity", 
+    "Roblox Studio", 
+  ];
 
-  const practices: string[] = [
-    "Micro-services",
-    "Hexagonal Architecture",
-    "MVC",
-    "Unit Test",
-    "TDD",
-    "DDD",
-    "Scrum",
+  const dev: string[] = [
+    "HTML", 
+    "CSS", 
+    "JS", 
   ];
 
   const softskills: string[] = [
-    "Pragmatism",
-    "Teamwork",
     "Communication",
-    "Problem-solving",
+    "Créative",
+    "Empathie",
   ];
 
   const skills: SkillData[] = [
     {
-      name: "Frontend",
-      description: frontends.join(separator),
+      name: "Graphisme",
+      description: graphisme.join(separator),
     },
     {
-      name: "Backend",
-      description: backends.join(separator),
+      name: "Montage Vidéo",
+      description: edit.join(separator),
     },
     {
-      name: "Practices",
-      description: practices.join(separator),
+      name: "Modélisation 3D",
+      description: modeling.join(separator),
     },
     {
-      name: "DevOps",
-      description: devops.join(separator),
+      name: "Développement Jeux Vidéo",
+      description: games.join(separator),
     },
     {
-      name: "Domains",
-      description: domains.join(separator),
+      name: "Developpement",
+      description: dev.join(separator),
     },
     {
       name: "Soft Skills",
