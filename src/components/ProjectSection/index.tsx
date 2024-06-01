@@ -11,7 +11,7 @@ import Project15 from "../../assets/images/tasse3d.png";
 import Project16 from "../../assets/images/video.gif";
 import Project17 from "../../assets/images/reprod.png";
 import Project18 from "../../assets/images/games.png";
-import Project19 from "../../assets/images/Old you.jpg";
+import Project19 from "../../assets/images/Old you.png";
 import ButtonLink from "../ButtonLink";
 
 /* image */
@@ -21,10 +21,10 @@ export default function ProjectSection() {
     <section className="pt-20">
       <div className="flex flex-row justify-between w-full items-center pb-4 md:pb-8">
         <h1 className="w-fit">Projets</h1>
-        <ButtonLink href="#contact">CONTACT ME</ButtonLink>
+        <ButtonLink href="#contact">ME CONTACTER</ButtonLink>
       </div><br />
       <h2 className="w-fit">Graphisme</h2><br /><br />
-      <h3 className="w-fit">Canettes :</h3><br /> 
+      <h3 className="w-fit">Canettes </h3><br /> 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <ProjectCard
           title="can design 1"
@@ -43,7 +43,7 @@ export default function ProjectSection() {
         />
       </div>
       <br /><br /><br /><br />
-    <h3 className="w-fit">Affiches :</h3><br /> 
+    <h3 className="w-fit">Affiches </h3><br /> 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
       <ProjectCard
           title="affiche Cloone"

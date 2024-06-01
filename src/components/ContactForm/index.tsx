@@ -79,7 +79,7 @@ export default function ContactForm() {
           <h1>Contact</h1>
           <p className="pb-5"></p>
           <p>
-          N'hésitez pas à me contacter !
+          N&apos;hésitez pas à me contacter !
           </p>
           <p className="pb-12"></p>
         </div>

@@ -77,9 +77,9 @@ export default function HeroSection() {
           </h1>
           <p className="pb-8 "></p>
           <p>
-          Étudiante en première année de BUT MMI (Métiers du Multimédia et de l'Internet) à l'IUT de Marne-la-Vallée, campus Gustave Eiffel à Meaux, je suis passionnée par la création numérique. 
+          Étudiante en première année de BUT MMI (Métiers du Multimédia et de l&apos;Internet) à l&apos;IUT de Marne-la-Vallée, campus Gustave Eiffel à Meaux, je suis passionnée par la création numérique. 
           </p><br />
-          <p>J’ai pour objectif de devenir graphiste ou de travailler dans l'audiovisuel. Mon projet ultime serait de créer ma propre entreprise avec plusieurs de mes camarades travaillant dans le même domaine que moi.</p>
+          <p>J&apos;ai pour objectif de devenir graphiste ou de travailler dans l&apos;audiovisuel. Mon projet ultime serait de créer ma propre entreprise avec plusieurs de mes camarades travaillant dans le même domaine que moi.</p>
           <p className="pb-8 md:pb-16"></p>
           <ButtonLink href="#contact">ME CONTACTER</ButtonLink>
           <p className="md:pb-16"></p>
