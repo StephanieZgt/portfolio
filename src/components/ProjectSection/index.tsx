@@ -81,7 +81,7 @@ export default function ProjectSection() {
         />
         </div>
         <br /><br /><br /><br />
-        <h3 className="w-fit">Autres Porjets</h3><br />
+        <h3 className="w-fit">Autres Projets</h3><br />
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <ProjectCard
           title="Dessin"
