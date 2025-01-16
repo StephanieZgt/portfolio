@@ -22,99 +22,17 @@ export default function ContactForm() {
   const [error, setError] = useState<string | null>(null);
   const [response, setResponse] = useState<string | null>(null);
 
-  const handleNameChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setName(event.target.value);
-  };
-
-  const handleEmailChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setEmail(event.target.value);
-  };
-  const handleMessageChange = (
-    event: React.ChangeEvent<HTMLTextAreaElement>
-  ) => {
-    setMessage(event.target.value);
-  };
-
-  const sendMessage = async () => {
-    validateForm();
-    if (isFormValid) {
-      const [response, err] = await sendEmail({ name, email, message });
-      if (err) {
-        console.error("Failed to send email:", err);
-        setError("Failed to send email. Please try again later.");
-        return;
-      }
-      console.log("Email sent successfully.");
-      setResponse(response);
-    } else {
-      console.log("Form has errors. Please correct them.");
-    }
-  };
-
-  const validateForm = () => {
-    let errors: Errors = {};
-
-    if (!name) {
-      errors.name = "Name is required.";
-    }
-
-    if (!email) {
-      errors.email = "Email is required.";
-    } else if (!/\S+@\S+\.\S+/.test(email)) {
-      errors.email = "Email is invalid.";
-    }
-
-    if (!message) {
-      errors.message = "Message is required.";
-    }
-
-    setErrors(errors);
-    setIsFormValid(Object.keys(errors).length === 0);
-  };
-
+  
   return (
     <>
       <div id="contact" className="flex flex-col md:flex-row justify-between">
         <div className="md:text-start md:w-[445px]">
           <h1>Contact</h1>
           <p className="pb-5"></p>
-          <p>
-          N&apos;hésitez pas à me contacter !
-          </p>
+          <a href="https://www.linkedin.com/in/stephanie-zwingelstein-790146295/" target="_blank" rel="noopener noreferrer">
+          Rejoignez moi sur LinkedIn !
+          </a>
           <p className="pb-12"></p>
-        </div>
-        <div className="flex flex-col md:w-[445px]">
-          <p>{response}</p>
-          <p className="text-red-500">{error}</p>
-          <Input
-            type="text"
-            placeholder="Nom"
-            value={name}
-            onChange={handleNameChange}
-            error={errors.name}
-            className="w-full py-2"
-          />
-          <p className="pb-3"></p>
-          <Input
-            type="email"
-            placeholder="Email"
-            value={email}
-            onChange={handleEmailChange}
-            error={errors.email}
-            className="w-full py-2"
-          />
-          <p className="pb-3"></p>
-          <TextArea
-            placeholder="Message"
-            value={message}
-            onChange={handleMessageChange}
-            error={errors.message}
-            className="w-full py-2"
-          />
-          <p className="pb-3"></p>
-          <div className="flex justify-end">
-            <ButtonCTA onClick={sendMessage}>Envoyer</ButtonCTA>
-          </div>
         </div>
       </div>
       <p className="pb-20"></p>
