@@ -7,7 +7,7 @@ import ButtonLink from "../ButtonLink";
 
 export default function HeroSection() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col h-screen justify-center">
       <div className="flex flex-col items-center justify-center text-center md:flex-row-reverse  md:text-left md:justify-between">
         {/* Mobile picture */}
         <Image
