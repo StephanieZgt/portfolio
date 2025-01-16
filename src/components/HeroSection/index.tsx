@@ -68,7 +68,7 @@ export default function HeroSection() {
           <p className="pb-8 "></p>
           <p>
           Étudiante en deuxième année de BUT MMI à l&apos;IUT de la Sorbonne Paris Nord, je suis passionnée par la création numérique.
-          J'ai réalisé plusieurs projets de graphisme et de montage vidéo que je vous invite à découvrir sur ce site.
+          J&apos;ai réalisé plusieurs projets de graphisme et de montage vidéo que je vous invite à découvrir sur ce site.
           </p>
           <p className="pb-8 md:pb-16"></p>
           <ButtonLink href="https://www.linkedin.com/in/stephanie-zwingelstein-790146295/">ME CONTACTER</ButtonLink>
