@@ -13,7 +13,7 @@ export default function SkillsSection() {
     "Illustrator",
   ];
 
-  const edit: string[] = [
+  const video: string[] = [
     "Premiere Pro",
     "CapCut",
   ];
@@ -22,21 +22,8 @@ export default function SkillsSection() {
     "Blender",
   ];
 
-  const games: string[] = [
-    "Unity", 
-    "Roblox Studio", 
-  ];
-
-  const dev: string[] = [
-    "HTML", 
-    "CSS", 
-    "JS", 
-  ];
-
-  const softskills: string[] = [
-    "Communication",
-    "Créative",
-    "Empathie",
+  const blueprint: string[] = [
+    "Figma",
   ];
 
   const skills: SkillData[] = [
@@ -45,24 +32,16 @@ export default function SkillsSection() {
       description: graphisme.join(separator),
     },
     {
+      name: "Maquettage",
+      description: blueprint.join(separator),
+    },
+    {
       name: "Montage Vidéo",
-      description: edit.join(separator),
+      description: video.join(separator),
     },
     {
-      name: "Modélisation 3D",
+      name: "Modelisation 3D",
       description: modeling.join(separator),
-    },
-    {
-      name: "Développement Jeux Vidéo",
-      description: games.join(separator),
-    },
-    {
-      name: "Developpement",
-      description: dev.join(separator),
-    },
-    {
-      name: "Soft Skills",
-      description: softskills.join(separator),
     },
   ];
 
