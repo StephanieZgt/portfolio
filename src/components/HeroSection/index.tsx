@@ -73,8 +73,10 @@ export default function HeroSection() {
           <p className="pb-8 "></p>
           <h4>Créer, expérimenter, raconter des histoires visuelles</h4>
           <p>
-          C&apos;est ce qui m&apos;anime en tant qu&apos;étudiante en deuxième année de BUT MMI à l&apos;IUT de la Sorbonne Paris Nord. À travers des projets en graphisme et montage vidéo, j&apos;ai développé un regard créatif et une envie constante d&apos;explorer de nouvelles idées.
+          C&apos;est ce qui m&apos;anime en tant qu&apos;étudiante en deuxième année de BUT MMI à l&apos;IUT de la Sorbonne Paris Nord. À travers des projets en graphisme et montage vidéo, j&apos;ai développé un regard créatif et une envie constante d&apos;explorer de nouvelles idées. Je recherche un stage de 3 mois pour mettre cette passion au service de projets ambiteux.
           </p>
+          <br />
+          <p>Contactez-moi et commençons un à créer !</p>
           <p className="pb-8 md:pb-16"></p>
           <ButtonLink href="https://www.linkedin.com/in/stephanie-zwingelstein-790146295/">ME CONTACTER</ButtonLink>
           <div></div>
