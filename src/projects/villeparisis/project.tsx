@@ -15,9 +15,9 @@ export default function ProjectVilleparisis(){
         <section className={`${style.project} pt-20`}>
             <div className={`${style.slider} reverse mb-5`}>
                 <div className={style.list}>
-                    <div className={`${style.item}`} style={{ "--position": 1 } as React.CSSProperties}><Image className="w-full" src={img0} alt="image"/></div>
-                    <div className={`${style.item}`} style={{ "--position": 2 } as React.CSSProperties}><Image className="w-full" src={img1} alt="image"/></div>
-                    <div className={`${style.item}`} style={{ "--position": 3 } as React.CSSProperties}><Image className="w-full" src={img2} alt="image"/></div>
+                    <div className={`${style.item}`} style={{ "--position": 1 } as React.CSSProperties}><Image src={img0} alt="image"/></div>
+                    <div className={`${style.item}`} style={{ "--position": 2 } as React.CSSProperties}><Image src={img1} alt="image"/></div>
+                    <div className={`${style.item}`} style={{ "--position": 3 } as React.CSSProperties}><Image src={img2} alt="image"/></div>
                 </div>
             </div>
             <h3>Description</h3>

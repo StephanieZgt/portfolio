@@ -77,7 +77,7 @@ export default function HeroSection() {
           <p className="pb-8 md:pb-16"></p>
           <ButtonLink href="https://www.linkedin.com/in/stephanie-zwingelstein-790146295/">ME CONTACTER</ButtonLink>
           <div></div>
-          <ButtonLink href="public/cv_stephanie_zwingelstein.pdf" target="_blank" rel="noopener noreferrer" download>TELECHARGER MON CV</ButtonLink>
+          <ButtonLink href="https://www.stephaniezwingelstein.fr/cv_stephanie_zwingelstein.pdf" target="_blank" rel="noopener noreferrer" download>TELECHARGER MON CV</ButtonLink>
         </div>
       </div>
       <p className="pb-20"></p>
