@@ -1,0 +1,36 @@
+.project {
+    --width: 300px;
+    --height: 50px;
+    --quantity: 10;
+}
+
+.slider {
+    width: 100%;
+    border : 1px solid red;
+    height: var(--height);
+}
+
+.slider .list {
+    display: flex;
+    width: 100%;
+    min-width: calc(var(--width) * var(--quantity));
+    position: relative;
+}
+
+.slider .list .item {
+    width: var(--width);
+    height: var(--height);
+    position: absolute;
+    left: 100%;
+    animation: autorun 20s linear infinite;
+    animation-delay: calc((20s / var(--quantity)) * (var(--position) - 1));
+}
+
+@keyframes autorun {
+    from {
+        left: 100%;
+    }
+    to {
+        left: calc(var(--width) * -1);
+    }
+}
