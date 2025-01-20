@@ -4,16 +4,15 @@ import Image from "next/image";
 import img0 from "@/projects/villeparisis/images/0.webp";
 import img1 from "@/projects/villeparisis/images/1.webp";
 import img2 from "@/projects/villeparisis/images/2.webp";
-import style from "@/projects/entete/project.module.css";
+import style from "@/projects/villeparisis/project.module.css";
 import ai from "@/assets/images/logiciels/LogoAI.webp";
 import id from "@/assets/images/logiciels/LogoID.webp";
-import ps from "@/assets/images/logiciels/LogoPS.webp";
 
 
 export default function ProjectVilleparisis(){
     return (
         <section className={`${style.project} pt-20`}>
-            <div className={`${style.slider} reverse mb-5`}>
+            <div className={`${style.slider} mb-5`}>
                 <div className={style.list}>
                     <div className={`${style.item}`} style={{ "--position": 1 } as React.CSSProperties}><Image src={img0} alt="image"/></div>
                     <div className={`${style.item}`} style={{ "--position": 2 } as React.CSSProperties}><Image src={img1} alt="image"/></div>

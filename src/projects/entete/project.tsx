@@ -20,7 +20,7 @@ import ps from "@/assets/images/logiciels/LogoPS.webp";
 export default function ProjectMag2(){
     return (
         <section className={`${style.project} pt-20`}>
-            <div className={`${style.slider} reverse mb-5`}>
+            <div className={`${style.slider} mb-5`}>
                 <div className={style.list}>
                     <div className={`${style.item}`} style={{ "--position": 1 } as React.CSSProperties}><Image className="w-full" src={img0} alt="image"/></div>
                     <div className={`${style.item}`} style={{ "--position": 2 } as React.CSSProperties}><Image className="w-full" src={img3} alt="image"/></div>
