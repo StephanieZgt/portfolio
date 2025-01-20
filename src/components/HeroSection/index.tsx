@@ -8,7 +8,7 @@ import style from "./index.module.css";
 
 export default function HeroSection() {
   return (
-    <div className="flex flex-col h-screen justify-center">
+    <div className="flex flex-col min-h-screen justify-center">
       <div className="flex flex-col items-center justify-center text-center md:flex-row-reverse  md:text-left md:justify-between">
         {/* Mobile picture */}
         <Image
