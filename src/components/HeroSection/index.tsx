@@ -29,8 +29,11 @@ export default function HeroSection() {
             className="z-10 pt-28"
             src={Avatar}
             alt="Avatar"
-            width={224}
-            height={239}
+            sizes="50vw"
+            style={{
+              width: '50%',
+              height: 'auto',
+            }}
           />
           <div></div>
         </div>
@@ -62,19 +65,14 @@ export default function HeroSection() {
             </span>
             .
           </h1>
-          <p>
-            BUT Métiers du Multimédia et de l&apos;Internet (MMI)</p>
-            <p>
-              IUT Sorbonne Paris Nord
-            </p>
-          <br />
+
             <p className="text-primary">
-              {'>'}{'>'} Recherche un stage de graphiste ou monteur vidéo pour juillet 2025 {'<'}{'<'}
+              {'>'}{'>'} Recherche un stage de 3 mois {'<'}{'<'}
             </p>
           <p className="pb-8 "></p>
           <h4>Créer, expérimenter, raconter des histoires visuelles</h4>
           <p>
-          La création est ce qui m&apos;anime en tant que graphiste. À travers des projets en graphisme et montage vidéo, j&apos;ai développé un regard créatif et une envie constante d&apos;explorer de nouvelles idées. Je recherche un stage de 2 à 3 mois pour mettre cette passion au service de projets ambitieux. Curieux de découvrir mon travail ? Parcourez mes réalisations sur ce site.
+          La création est ce qui m&apos;anime en tant que graphiste. À travers des projets en graphisme et montage vidéo, j&apos;ai développé un regard créatif et une envie constante d&apos;explorer de nouvelles idées.
           </p>
           <p className="pb-8 md:pb-16"></p>
           <ButtonLink href="https://www.linkedin.com/in/stephanie-zwingelstein-790146295/">ME CONTACTER</ButtonLink>
