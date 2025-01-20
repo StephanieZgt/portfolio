@@ -1,0 +1,12 @@
+.floating {
+  animation: float 3s linear infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: rotate(0deg) translateY(-12px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateY(-12px) rotate(-360deg);
+  }
+}

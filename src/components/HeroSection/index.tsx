@@ -4,6 +4,7 @@ import Avatar from "../../assets/images/avatar.svg";
 import PatternLine from "../../assets/images/pattern-line.svg";
 import Logo from "../../assets/images/logo.svg";
 import ButtonLink from "../ButtonLink";
+import style from "./index.module.css";
 
 export default function HeroSection() {
   return (
@@ -26,7 +27,7 @@ export default function HeroSection() {
           />
         <div className="md:hidden flex w-full z-30 relative justify-center ">
           <Image
-            className="z-10 pt-28"
+            className={`z-10 pt-28 ${style.floating}`}
             src={Avatar}
             alt="Avatar"
             sizes="50vw"
@@ -40,7 +41,7 @@ export default function HeroSection() {
         {/* Tablette picture */}
         <div className="max-md:hidden xl:hidden z-30 relative right-[-2rem]">
           <Image
-            className="z-10 pr-4"
+            className={`z-10 pr-4 ${style.floating}`}
             src={Avatar}
             alt="Avatar"
             width={322}
@@ -50,7 +51,7 @@ export default function HeroSection() {
         {/* Desktop Picture */}
         <div className="max-xl:hidden h-full z-30 relative">
           <Image
-            className="z-10 pt-28"
+            className={`z-10 pt-28 ${style.floating}`}
             src={Avatar}
             alt="Avatar"
             width={445}
