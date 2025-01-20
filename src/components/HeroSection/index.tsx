@@ -67,9 +67,9 @@ export default function HeroSection() {
             .
           </h1>
 
-            <p className="text-primary">
-              {'>'}{'>'} Recherche un stage de 3 mois {'<'}{'<'}
-            </p>
+            <h4 className="text-accent">
+              Recherche un stage de 3 mois
+            </h4>
           <p className="pb-8 "></p>
           <h4>Créer, expérimenter, raconter des histoires visuelles</h4>
           <p>
