@@ -26,7 +26,7 @@ Ce stage m&apos;a également permis d&apos;apprendre à utiliser différents out
 </p>
             <br />
             <h3 className="mb-5">Logiciels</h3>
-            <div className="grid grid-cols-4 md:grid-cols-8 gap-4">
+            <div className="grid grid-cols-4 md:grid-cols-8 xl:grid-cols-12 gap-4">
                 <div><Image height={50} src={ai} alt="Adobe Ilustrator"></Image></div>
                 <div><Image height={50} src={id} alt="InDesign"></Image></div>
             </div>
