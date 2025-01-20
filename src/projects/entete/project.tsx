@@ -22,7 +22,7 @@ export default function ProjectMag2(){
         <section className={`${style.project}`}>
             <h2>Graphisme</h2>
             <br />
-                <h3 className="z-20">Magazine "En tête"</h3>
+                <h3 className="z-20">Magazine &quot;En tête&quot;</h3>
             <div className={`${style.slider} mb-5`}>
                 <div className={`${style.list} z-10`}>
                     <div className={`${style.item}`} style={{ "--position": 1 } as React.CSSProperties}><Image className="w-full" src={img0} alt="image"/></div>
