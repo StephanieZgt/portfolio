@@ -19,9 +19,12 @@ import ps from "@/assets/images/logiciels/LogoPS.webp";
 
 export default function ProjectMag2(){
     return (
-        <section className={`${style.project} pt-20`}>
+        <section className={`${style.project}`}>
+            <h2>Graphisme</h2>
+            <br />
+                <h3 className="z-20">Magazine "En tête"</h3>
             <div className={`${style.slider} mb-5`}>
-                <div className={style.list}>
+                <div className={`${style.list} z-10`}>
                     <div className={`${style.item}`} style={{ "--position": 1 } as React.CSSProperties}><Image className="w-full" src={img0} alt="image"/></div>
                     <div className={`${style.item}`} style={{ "--position": 2 } as React.CSSProperties}><Image className="w-full" src={img3} alt="image"/></div>
                     <div className={`${style.item}`} style={{ "--position": 3 } as React.CSSProperties}><Image className="w-full" src={img4} alt="image"/></div>
@@ -34,12 +37,12 @@ export default function ProjectMag2(){
                     <div className={`${style.item}`} style={{ "--position": 10 } as React.CSSProperties}><Image className="w-full" src={img11} alt="image"/></div>
                 </div>
             </div>
-            <h3>Description</h3>
+            <h4>Description</h4>
             <br />
             <p>Travail sur la mise en page d’un magazine existant en respectant son thème initial et son sujet, tout en concevant trois gabarits distincts.</p>
             <p>Ce projet inclus la réalisation d’un PDF interactif intégrant divers éléments tels qu’une vidéo, un sommaire, un carrousel, ainsi qu’une navigation optimisée entre les pages.</p>
             <br />
-            <h3 className="mb-5">Logiciels</h3>
+            <h4 className="mb-5">Logiciels</h4>
             <div className="grid grid-cols-4 md:grid-cols-8 xl:grid-cols-12 gap-4">
                 <div><Image height={50} src={ai} alt="Adobe Ilustrator"></Image></div>
                 <div><Image height={50} src={id} alt="InDesign"></Image></div>

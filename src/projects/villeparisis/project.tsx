@@ -12,6 +12,7 @@ import id from "@/assets/images/logiciels/LogoID.webp";
 export default function ProjectVilleparisis(){
     return (
         <section className={`${style.project} pt-20`}>
+            <h3 className="z-20">Affiches evenementiel</h3>
             <div className={`${style.slider} mb-5`}>
                 <div className={style.list}>
                     <div className={`${style.item}`} style={{ "--position": 1 } as React.CSSProperties}><Image src={img0} alt="image"/></div>
@@ -19,13 +20,13 @@ export default function ProjectVilleparisis(){
                     <div className={`${style.item}`} style={{ "--position": 3 } as React.CSSProperties}><Image src={img2} alt="image"/></div>
                 </div>
             </div>
-            <h3>Description</h3>
+            <h4>Description</h4>
             <br />
             <p>Ce projet inclut des affiches et des coupons d&apos;invitation, dont l&apos;un n&apos;a pas été finalisé, réalisés lors de mon stage à Villeparisis. Ce stage m&apos;a permis d&apos;apprendre énormément grâce à l&apos;accompagnement de deux autres graphistes. Leurs conseils, astuces et feedbacks ont été très précieux pour améliorer mes compétences.
 Ce stage m&apos;a également permis d&apos;apprendre à utiliser différents outils de la suite Adobe simultanément, ce que je n&apos;avais pas fait lors de ma première année. J&apos;ai aussi beaucoup appris sur moi-même, en découvrant comment mieux me comprendre pour trouver les meilleures façons de m&apos;inspirer et de retrouver ma motivation.
 </p>
             <br />
-            <h3 className="mb-5">Logiciels</h3>
+            <h4 className="mb-5">Logiciels</h4>
             <div className="grid grid-cols-4 md:grid-cols-8 xl:grid-cols-12 gap-4">
                 <div><Image height={50} src={ai} alt="Adobe Ilustrator"></Image></div>
                 <div><Image height={50} src={id} alt="InDesign"></Image></div>
